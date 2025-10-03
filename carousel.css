@@ -1,0 +1,57 @@
+.carousel-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    width: 80%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    /* This will move nav to bottom */
+}
+
+.carousel-content {
+    position: relative;
+}
+
+.carousel-item {
+    display: none;
+    animation: fadeEffect 1s;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-nav {
+    margin-top: 2rem;
+    /* Changed from margin-bottom to margin-top */
+    margin-bottom: 0;
+    /* Reset bottom margin */
+}
+
+.nav-indicator {
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.nav-indicator.active {
+    background: white;
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

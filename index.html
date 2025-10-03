@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesha Global IT Solutions: Empowering Businesses with Smart Cloud & IT Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./video.css">
+    <link rel="stylesheet" href="./welcome-sec.css">
+    <link rel="stylesheet" href="./cloud-partner.css">
+    <link rel="stylesheet" href="./carousel.css">
+    <link rel="stylesheet" href="./service-sec.css">
+    <link rel="stylesheet" href="./experties-sec.css">
+    <link rel="stylesheet" href="./choose-us.css">
+    <link rel="stylesheet" href="./footer.css">
+
+</head>
+
+<body>
+    <div class="HeaderContainer" id="HeaderContainerID">
+        <header class="d-flex flex-wrap justify-content-between align-items-center py-3">
+            <a href="/" class="d-flex align-items-center me-md-auto link-body-emphasis text-decoration-none">
+                <img class="headerCmpLogo" src="./src/heshalogo.png" alt="Company Logo">
+            </a>
+            <div class="hamburger" id="hamburger">&#9776;</div>
+
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav nav-pills d-flex flex-column flex-md-row align-items-center">
+                    <li class="nav-item"><a href="#" class="nav-link"><button class="headerbtn" onclick="scrollToTargetHomeSec()">Home</button></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><button class="headerbtn" onclick="scrollToTargetServicesSec()">Services</button></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><button class="headerbtn" onclick="scrollToTargetExperitesSec()">Our Experties</button></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><button class="headerbtn" onclick="scrollToTargetWhyUsSec()">Why Us</button></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><button class="headerbtn">Blog</button></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><button class="headerbtn" onclick="scrollToTargetContactSec()">Contact</button></a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="video-container" id="VideoContainerID">
+        <div class="overlay"></div>
+        <svg class="wave-divider" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path class="wave-path1" d="M0,0V22.3L1000,100V0Z" style="fill: white; opacity: 0.66"></path>
+            <path class="wave-path2" d="M0,0V6L1000,100V0Z" style="fill: white;"></path>
+        </svg>
+        <div id="heroCarousel" class="carousel-container" data-interval="7000">
+            <div class="carousel-nav">
+                <button class="nav-indicator active" data-slide="0"></button>
+                <button class="nav-indicator" data-slide="1"></button>
+                <button class="nav-indicator" data-slide="2"></button>
+                <button class="nav-indicator" data-slide="3"></button>
+                <button class="nav-indicator" data-slide="4"></button>
+            </div>
+            
+            <div class="carousel-content">
+                <div class="carousel-item active">
+                    <div class="carousel-text">
+                        <h2>Unlock Your Cloud Journey with Expert Guidance</h2>
+                        <h6>Map your cloud strategy with expert assessments, roadmap development, and architecture
+                                        design for optimal performance and cost-efficiency.</h6>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-text">
+                        <h2>Seamless Cloud Migrations for Business Growth</h2>
+                        <h6>Effortlessly transition your applications and data to the cloud, minimizing downtime.
+                                        Specializing in email migrations from any platform to Microsoft 365 or Google Workspace.
+                                    </h6>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-text">
+                        <h2>Proactive Cloud Management for Peak Performance</h2>
+                        <h6>Enjoy 24/7 monitoring, management, and support for your cloud infrastructure, ensuring
+                                        peak performance, security, and compliance.</h6>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-text">
+                        <h2>Maximize Your Cloud ROI with Continuous Optimization</h2>
+                        <h6>Reduce waste and enhance efficiency through continuous cost management, performance
+                                        tuning, and resource right-sizing.</h6>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-text">
+                        <h2>Robust Cloud Security for Peace of Mind</h2>
+                        <h6>Implement advanced security measures and ensure regulatory adherence for your cloud
+                                        environments.</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="welcome-section" id="WelcomeSectionID">
+        <div class="container text-center">
+            <h1>Empower Your Business with Smart IT Solutions</h1>
+            <div class="welcome-text">
+                <p>Welcome to Hesha Global IT Solutions, your Digital Transformation partner delivering secure, reliable, scalable, and cost-efficient IT solutions & services. Transform your business with our expertise in offering seamless cloud migration, robust cybersecurity, and 24/7 managed IT support.</p>
+                <p>As a trusted partner, we simplify digital transformation, empowering businesses to thrive in the digital age. Our tailored cloud consulting and cutting-edge solutions are designed to meet your unique needs, driving measurable results with unmatched reliability.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="ms-cloud-partner" id="MSCloudPartnerID">
+        <div class="container">
+            <div class="row align-items-center cloud-partner-flex">
+                <div class="col-md-4 ms-partner-logo-container">
+                    <img src="./src/microsoft-ai.png" alt="Microsoft AI Cloud Partner Logo" class="ms-partner-logo">
+                </div>
+                <div class="col-md-8 ms-partner-details">
+                    <h2>Microsoft AI Cloud Partner</h2>
+                    <p>Expert in Microsoft solutions, Hesha Global IT Solutions is part of the Microsoft AI Cloud Partner Program.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services-section" id="ServicesSectionID">
+        <div class="container">
+            <h2 class="text-center">Our Services</h2>
+            <p class="text-center services-intro">We help businesses unlock the full potential of the cloud with tailored, end-to-end solutions designed for efficiency, security, and growth.</p>
+            
+            <div class="services-grid">
+                <div class="service-left">
+                    <div class="service-item">
+                        <h3>Cloud Strategy & Consulting</h3>
+                        <p>Map your cloud journey with expert assessments, roadmap development, and architecture design for optimal performance and cost-efficiency. We'll help you navigate the complexities of the cloud, ensuring your strategy aligns perfectly with your business goals.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Cloud Migration Services</h3>
+                        <p>Experience effortless transitions for your applications and data to the cloud, minimizing downtime and disruption. We specialize in email migrations from any platform to Microsoft 365 or Google Workspace, and offer comprehensive application and infrastructure migrations. We make your move to the cloud smooth and secure.</p>
+                    </div>
+                </div>
+
+                <div class="service-center">
+                    <img src="./src/CloudSecurity.png" alt="Cloud Security Illustration" class="services-image">
+                </div>
+
+                <div class="service-right">
+                    <div class="service-item">
+                        <h3>Cloud Optimization</h3>
+                        <p>Maximize your cloud return on investment (ROI) through continuous cost management, performance tuning, and resource right-sizing. We constantly focus on optimizing your cloud environment to reduce waste, enhance efficiency, and ensure you're getting the most value from your cloud spend.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Cloud Security & Compliance</h3>
+                        <p>Fortify your cloud environments with robust defences. We implement advanced security measures, conduct regular audits, and ensure strict regulatory adherence, protecting your valuable data and operations against evolving threats. Sleep easy knowing your cloud is secure and compliant.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-bottom">
+                <div class="service-item text-center">
+                    <h3>Managed Services</h3>
+                    <p>Enjoy proactive 24/7 monitoring, management, and support for your cloud infrastructure. We ensure peak performance, robust security, and continuous compliance. With us managing your cloud, you're free to focus on your core business, knowing your IT environment is in expert hands.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="expertise-names" id="ExpertiesSectionID">
+
+            <div class="expertise-section">
+                <div class="container text-center">
+                    <h2>Our Expertise</h2>
+                    <p class="expertise-intro">Hesha Global IT Solutions is your trusted Cloud Solution Provider, delivering secure,
+                        scalable, and innovative IT services to drive business success. We specialize in Microsoft 365, Azure,
+                        Dynamics 365, AWS, GCP and Huawei cloud solutions, alongside seamless migration tools like BitTitan and
+                        Quest.</p>
+            
+                    <p class="expertise-details">Our comprehensive offerings include robust email security with Barracuda and
+                        Mimecast, endpoint protection through Kaspersky, ESET, Avast, and SOPHOS, and advanced firewalls from
+                        FortiGate, SonicWall, and Check Point. Paired with Adobe Creative Cloud and reliable backup solutions like
+                        Veeam and Acronis, we empower businesses with tailored, results-driven strategies to thrive in the digital
+                        era.</p>
+                </div>
+            </div>
+
+
+            
+        <div class="container">
+            <div class="expertise-grid">
+                <!-- Cloud Providers -->
+                <div class="expertise-card">
+                    <h3>Cloud Providers</h3>
+                    <div class="logo-grid">
+                        <img src="./src/microsoft.png" alt="Microsoft">
+                        <img src="./src/aws.png" alt="AWS">
+                        <img src="./src/gcp.png" alt="Google Cloud">
+                        <img src="./src/huwaei.png" alt="Huawei" class="ExpertiseLogoFix">
+                    </div>
+                </div>
+    
+                <!-- Microsoft -->
+                <div class="expertise-card">
+                    <h3>Microsoft</h3>
+                    <div class="logo-grid">
+                        <img src="./src/ms365.png" alt="Microsoft 365">
+                        <img src="./src/azure.png" alt="Azure">
+                        <img src="./src/dynamic-logo.png" alt="Dynamics 365">
+                    </div>
+                </div>
+    
+                <!-- Email Security -->
+                <div class="expertise-card">
+                    <h3>Email Security</h3>
+                    <div class="logo-grid">
+                        <img src="./src/baracuda.png" alt="Barracuda">
+                        <img src="./src/mimecaste.png" alt="Mimecast">
+                    </div>
+                </div>
+    
+                <!-- Endpoint Security -->
+                <div class="expertise-card">
+                    <h3>Endpoint Security</h3>
+                    <div class="logo-grid">
+                        <img src="./src/kasperzky.png" alt="Kaspersky">
+                        <img src="./src/eset.png" alt="ESET">
+                        <img src="./src/avast.png" alt="Avast">
+                    </div>
+                </div>
+    
+                <!-- Migration Tools -->
+                <div class="expertise-card">
+                    <h3>Migration Tools</h3>
+                    <div class="logo-grid">
+                        <img src="./src/bittan.png" alt="BitTitan">
+                        <img src="./src/quest.png" alt="Quest">
+                    </div>
+                </div>
+    
+                <!-- Email Signature -->
+                <div class="expertise-card">
+                    <h3>Email Signature</h3>
+                    <div class="logo-grid">
+                        <img src="./src/signare.png" alt="Letsignit" class="ExpertiseLogoFix">
+                    </div>
+                </div>
+    
+                <!-- Firewalls -->
+                <div class="expertise-card">
+                    <h3>Firewalls</h3>
+                    <div class="logo-grid">
+                        <img src="./src/sophos.png" alt="Sophos">
+                        <img src="./src/fortinet.png" alt="Fortinet">
+                        <img src="./src/sonic.png" alt="SonicWall">
+                        <img src="./src/checkpoint.png" alt="Check Point" class="ExpertiseLogoFix">
+                    </div>
+                </div>
+    
+                <!-- Backup Solutions -->
+                <div class="expertise-card">
+                    <h3>Backup Solutions</h3>
+                    <div class="logo-grid">
+                        <img src="./src/veeam.png" alt="Veeam">
+                        <img src="./src/acronis.png" alt="Acronis">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="why-choose-us" id="ChooseUSSectionID">
+        <div class="container text-center">
+            <h2>Why Choose Us | Your Cloud Success, Our Commitment</h2>
+            <p class="why-choose-intro">From strategic planning to seamless execution and ongoing management, we cover every
+                stage of your cloud transformation.</p>
+    
+            <div class="benefits-grid">
+                <div class="row">
+                    <!-- First Row -->
+                    <div class="col-md-4">
+                        <div class="benefit-card">
+                            <div class="icon-container">
+                                <img class="benefit-cardIcon" src="./src/certificate.png" alt="certificate">
+                            </div>
+                            <h3>Certified Expertise</h3>
+                            <p>Officially certified in Microsoft Cloud technologies for expert-level guidance.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="benefit-card">
+                            <div class="icon-container">
+                                <img class="benefit-cardIcon" src="./src/training.png" alt="Track Record">
+                            </div>
+                            <h3>Proven Track Record</h3>
+                            <p>Successfully delivered results and transformations for a wide range of clients.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="benefit-card">
+                            <div class="icon-container">
+                                <img class="benefit-cardIcon" src="./src/help.png" alt="help">
+                            </div>
+                            <h3>Proactive & Responsive</h3>
+                            <p>Dedicated support that anticipates needs and responds with speed and care.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Second Row -->
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="benefit-card">
+                            <div class="icon-container">
+                                <img class="benefit-cardIcon" src="./src/differentiation.png" alt="support">
+                            </div>
+                            <h3>End-to-End Solutions</h3>
+                            <p>From planning to optimization, we support every stage of your cloud journey.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="benefit-card">
+                            <div class="icon-container">
+                                <img class="benefit-cardIcon" src="./src/profit.png" alt="cost efficient">
+                            </div>
+                            <h3>Cost Efficiency Focus</h3>
+                            <p>Maximize <span style="font-weight: 500;">ROI</span> with smart, scalable, and cost-optimized cloud strategies.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="benefit-card">
+                            <div class="icon-container">
+                                <img class="benefit-cardIcon" src="./src/web-design.png" alt="web design">
+                            </div>
+                            <h3>Tailored Approach</h3>
+                            <p>Custom-built strategies designed around your unique business goals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr style="margin:0px; border:none; height: 1px; background-color: rgba(255, 255, 255, 0);">
+
+    <div class="site-footer" id="SiteFooterID">
+                <div class="container">
+                    <div class="footer-grid">
+                        <div class="footer-brand">
+                            <img src="./src/heshalogo.png" alt="Hesha Global Logo" class="footer-logo">
+                            <span class="copyright-text">© 2025</span>
+                        </div>
+                
+                
+                        <div class="footer-nav-group">
+                            <h5>Contact Us</h5>
+                            <div class="contact-details-section">
+                                <h5>ChuzeIT Solutions</h5>
+                                <p>Vignanpuri colony, Streetno. 8 habsiguda, Hyderabad, Telangana, India</p>
+                                <p>Ph. 1234123412</p>
+                            </div>
+                        </div>
+                
+                        <div class="footer-nav-group">
+                            <h5>Social Media</h5>
+                            <nav class="footer-nav">
+                                <a href="#" class="footer-link"><img class="footerSMlogo" src="./src/facebook.svg"></a>
+                                <a href="#" class="footer-link"><img class="footerSMlogo" src="./src/instagram.svg"></a>
+                                <a href="#" class="footer-link"><img class="footerSMlogo" src="./src/linkedin.svg"></a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+    
+
+   
+   
+   
+    
+    
+    <script src="/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+</html>

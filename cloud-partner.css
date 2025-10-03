@@ -1,0 +1,76 @@
+.ms-cloud-partner {
+    background: linear-gradient(to right, #bc7dd5, #983eed);
+    padding: 50px 0;
+    color: white;
+}
+
+.ms-partner-logo {
+    max-width: 250px;
+    width: auto;
+    height: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.ms-partner-logo-container{
+    max-width: 250px;
+    width: auto;
+    height: auto;
+    margin-left: 35px;
+}
+
+.ms-partner-details{
+    margin-left: 35px;
+    min-width: 200px;
+}
+
+.ms-cloud-partner h2 {
+    font-size: 2rem;
+    /* Decreased from 2.5rem */
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.ms-cloud-partner p {
+    font-size: 1rem;
+    /* Decreased from 1.2rem */
+    line-height: 1.6;
+}
+
+
+.cloud-partner-flex{
+    justify-content: center;
+}
+
+@media(max-width: 992px){
+    .ms-partner-logo{
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        height:80px;
+    }
+
+    .ms-partner-logo-container{
+        margin:0px;
+        height:100px;
+    }
+
+    .ms-partner-details {
+        width: auto;
+        padding-right: 40px;
+    }
+
+    .ms-cloud-partner h2 {
+        text-align: center;
+    }
+
+    .ms-cloud-partner p{
+        text-align: center;
+    }
+}
+
+@media(max-width: 600px) {
+
+}
